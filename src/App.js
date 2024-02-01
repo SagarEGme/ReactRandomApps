@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+import Rating from './component/StarRating/Rating';
+import Randombg from './component/RandomBackground/Randombg';
+import Accordian from './component/Accordian/Accordian';
+import ImageSlider from './component/imageSlider/ImageSlider';
+import LoadMore from './component/load-more/LoadMore';
+
+const App = () => {
+    return (
+        // RATING
+        // <Rating/>
+
+        // <Randombg/>
+
+        // <Accordian/>
+
+        // <ImageSlider url={"https://picsum.photos/v2/list"} limit={'5'} page={'1'} />
+
+        <LoadMore/>
+    )
 }
 
-export default App;
+export default App

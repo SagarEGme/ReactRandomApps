@@ -1,0 +1,15 @@
+.wrapper{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: #299f6a;
+}
+.accordian{
+    background-color: #e3f614;
+}
+.item .title{
+    border:1px solid black;
+    display: flex;
+    justify-content: space-between;
+}

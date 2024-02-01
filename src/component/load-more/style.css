@@ -1,0 +1,21 @@
+.product-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:10px;
+}
+.product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+button{
+    padding:10px;
+    border-radius: 10px;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
